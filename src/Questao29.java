@@ -1,28 +1,34 @@
-import java.util.Scanner;
-
-public class Questao29 {
     /*
         Construa um programa que mova o número da ultima posição do vetor para a primeira. Faça isso gradativamente:
-        use uma estrutura de repetição, e em cada interação do loop mova esse número apenas uma posiçãp, ou seja,
+        use uma estrutura de repetição, e em cada interação do loop mova esse número apenas uma posição, ou seja,
         troque esse número da posição n por n-1.
-    */    
-
-    private static Scanner scanner = new Scanner(System.in);
-
+    */
+public class Questao29 {
+        
     public static void main(String args[]){
         int vet[] = {1,2,3,4,5};
         
-        System.out.print("Antes de mudar: ");
+        System.out.print("Antes de mudar:   ");
         for(int i = 0; i < 5; i++){
             System.out.print(vet[i]+" ");
         }
-        int temp;
-        for(int i = 0;i<5;i++){
-            if(i==0){
-                temp = vet[i+4];
+
+        System.out.println();
+        int temp, controle = 4;
+        for(int i = 4;i>=0;i--){
+            temp = vet[i];
+            if(i == 0){
+                vet[i] = temp;
+            } else if(i > 0){
+                vet[i-1] = temp;
+                vet[i] = 0;
             }
-            
-            
+            controle--;
+            System.out.print("Andando 1 posição ");
+            for(int l = 0;l<5;l++){
+                System.out.print(vet[l]+" ");
+            }
+            System.out.println();
         }
     }
 }

@@ -1,12 +1,9 @@
 /*
     Construa um programa que identifique o maior e menor número de um vetor de inteiros.
  */
-import java.util.Scanner;
 
 public class Questao28 {
     
-    private static Scanner scanner = new Scanner(System.in);
-
     public static void main(String args[]){
         int vet[] = {6,2,3,11,5};
         int menor =0, maior = 0;
