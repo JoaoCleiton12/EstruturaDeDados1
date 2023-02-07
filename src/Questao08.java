@@ -1,3 +1,6 @@
+/*
+    Calcular o IMC de uma pessoa. Produza um alerta em caso de divisão por zero.
+ */
 import java.util.Scanner;
 
 public class Questao08 {

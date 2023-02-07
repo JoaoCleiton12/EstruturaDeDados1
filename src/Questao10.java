@@ -1,3 +1,7 @@
+/*
+    Construa um programa que leia um número inteiro e identifique
+    se ele é par ou impar.
+ */
 import java.util.Scanner;
 
 public class Questao10 {

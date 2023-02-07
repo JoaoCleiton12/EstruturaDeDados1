@@ -1,3 +1,8 @@
+/*
+    Construa um programa que simule uma transferencia bancária, entre duas contas.
+    Primeiro, inicialize cada conta com R$ 100. Depois, permita que o usuário defina quanto deve transferir,
+    da conta 1 para a conta 2, porém a tranferencia só deve ser realizada caso haja saldo suficiente.
+ */
 import java.util.Scanner;
 
 public class Questao11 {

@@ -1,3 +1,11 @@
+/*
+    Construa um programa que leia do usuario um numero inicial e um numero final. Em seguida, exiba na tela uma sequencia
+    apenas com os numeros impare dentro desse intervalo informado pelo usuario. Exemplo: caso o usuário entre com os números 4 a 10, o resultado
+    do programa seria: 5 7 9
+    a)Construa este programa utilizado a estrutura while.
+    b)Construa este programa utilizado a estrutura do-while.
+    c)Construa este programa utilizado a estrutura for.
+ */
 import java.util.Scanner;
 
 public class Questao17 {

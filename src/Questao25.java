@@ -1,3 +1,7 @@
+/*
+    Construa um programa pra ler e exibir um vetor de inteiros. Em tempo de execução,
+    o usuário pode definir o tamanho do vetor.
+ */
 import java.util.Scanner;
 
 public class Questao25 {

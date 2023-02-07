@@ -1,3 +1,7 @@
+/*
+    Distinguir, com base na média parcial do aluno, se ele está aprovado,
+    reprovado ou na final. Aplique as regras da ufersa.
+ */
 import java.util.Scanner;
 
 public class Questao12 {

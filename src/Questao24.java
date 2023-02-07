@@ -1,3 +1,11 @@
+/*
+    Construa um programa que simule uma calculadora. Disponibilize um menu de opções e simule
+    a opção desejada, exibindo novamente o menu, até que o usuário escolha sair. menu de opções:
+    1 - potenciação                     Dica:utilize a função da biblioteca matemática.
+    2 - raiz quadrada                   Dica:utilize a função da biblioteca matemática.
+    3 - fatorial                        Dica:crie e utilize a função com a solução da questão 23.
+    0 - sair
+ */
 import java.util.Scanner;
 
 public class Questao24 {

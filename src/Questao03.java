@@ -1,3 +1,7 @@
+/*
+    Receba do teclado dois números inteiros, calcule e exiba os resultados das seguintes operações
+    adição, subtração, multiplicação, quociente da divisão, e resto da divisão.
+ */
 import java.util.Scanner;
 
 public class Questao03 {

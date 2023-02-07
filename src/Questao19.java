@@ -1,3 +1,7 @@
+/*
+    Construa um programa para exibir a tabuada de qualquer número "n" (1 a 9), sendo "n" um número
+    fornecido pelo usuário. Utilize estrutura de repetição.
+ */
 import java.util.Scanner;
 
 public class Questao19 {

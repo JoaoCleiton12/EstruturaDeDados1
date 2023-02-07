@@ -1,3 +1,8 @@
+/*
+    Construa um programa que calcule uma equação do 2° grau
+    Crie uma função com retorno para calcular o delta.
+    Crie uma função sem retorno para calcular as raizes.
+ */
 import java.util.Scanner;
 
 public class Questao14 {

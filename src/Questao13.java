@@ -1,3 +1,10 @@
+/*
+    Construa um programa que calcule para o aluno sua média parcial e informa
+    sua situação parcial(Aprovado, reprovado ou recuperação).
+    Caso ele esteja em recuperação, calcule quanto ele precisa tirar na 4° prova
+    para ser aprovado(média final maior ou igual que 5,0)
+    Observação: utilize os pesos e regras da ufersa.
+ */
 import java.util.Scanner;
 
 public class Questao13 {

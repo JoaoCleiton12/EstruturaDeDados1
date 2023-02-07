@@ -1,3 +1,9 @@
+/*
+    Construa um programa que gerencia a conta de uma pizzaria.
+    Preço do refrigerante: R$ 1,50. Preço da fatia de pizza: R$ 3,00. Taxa do garçom: 10%
+    Receba do usuário: a quantidade de refrigerantes, a quantidade de fatias e a quantidade de pessoas na mesa.
+    Calcule e exiba: o total sem a taxa, o total com a taxa, o rateio por pessoa com a taxa.
+ */
 import java.util.Scanner;
 
 public class Questao06 {

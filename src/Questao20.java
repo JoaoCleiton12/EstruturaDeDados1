@@ -1,3 +1,8 @@
+/*
+    Construa um programa que calcule o rendimento mensal de um investimento em poupança.
+    Variáveis: investimento inicial, investimento mensal, quantidade de meses, saldo acumulado,
+    taxa de juros mensal, rendimento mensal.
+ */
 import java.util.Scanner;
 
 public class Questao20 {

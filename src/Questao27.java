@@ -1,3 +1,7 @@
+/*
+    Construa e use uma função que produz um novo vetor de inteiros com a ordem
+    inversa do vetor original passado por parâmetro.
+ */
 import java.util.Scanner;
 
 public class Questao27{

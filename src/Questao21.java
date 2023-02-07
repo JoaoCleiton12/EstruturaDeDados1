@@ -1,3 +1,6 @@
+/*
+    Construa um programa que identifique se um número é primo.
+ */
 import java.util.Scanner;
 
 public class Questao21 {

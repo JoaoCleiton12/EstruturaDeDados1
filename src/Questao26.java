@@ -1,3 +1,7 @@
+/*
+    Construa um programa pra ler e exibir uma matriz de inteiros. Em tempo de execução,
+    o usuário pode definir o tamanho da matriz.
+ */
 import java.util.Scanner;
 
 public class Questao26 {

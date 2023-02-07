@@ -1,3 +1,6 @@
+/*
+    Calcular e exibir a média aritmética de três números inteiros.
+ */
 import java.util.Scanner;
 
 public class Questao04 {

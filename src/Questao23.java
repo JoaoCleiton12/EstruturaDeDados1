@@ -1,3 +1,8 @@
+/*
+    Construa um programa que calcule o fatorial de um número. Use uma estrutura de repetição.
+    Fatorial: n! = n(n-1)!
+    exemplo: 5! = 5*4*3*2*1 = 120
+ */
 import java.util.Scanner;
 
 public class Questao23 {

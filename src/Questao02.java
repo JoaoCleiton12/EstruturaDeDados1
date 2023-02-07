@@ -1,3 +1,7 @@
+/*
+    Atributos com valores vindos do teclado variáveis adequadas para:
+    idade, altura, primeira letra do nome, nome completo, depois exiba na tela
+ */
 import java.util.Locale;
 import java.util.Scanner;
 

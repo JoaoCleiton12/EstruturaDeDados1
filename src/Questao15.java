@@ -1,3 +1,8 @@
+/*
+    Construa um programa que leia um número inteiro digitado pelo usuário.
+    caso o número pertença ao intevalor de 1 a 5, exiba o número por extenso.
+    Caso o número não pertença a este intervalo, exiba a mensagem "valor invalido"
+ */
 import java.util.Scanner;
 
 public class Questao15 {

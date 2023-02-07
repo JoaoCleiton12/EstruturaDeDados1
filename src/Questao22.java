@@ -1,3 +1,7 @@
+/*
+    Construa um programa que calcule o somátorio dos números inteiros de um intervalo, definido por um número inicial e um número final.
+    exemplo: caso as entradas fossem 4 e 9, o resultado seria: 39.
+ */
 import java.util.Scanner;
 
 public class Questao22 {

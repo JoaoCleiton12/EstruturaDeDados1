@@ -1,3 +1,8 @@
+/*
+    Construa um programa que calcule a área de um circulo, tendo como entrada
+    o valor do raio, que deve ser positivo. Use o valor da constante PI vindo
+    da biblioteca matemática.
+ */
 import java.util.Scanner;
 
 public class Questao09 {
