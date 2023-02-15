@@ -14,7 +14,7 @@ public class Questao29 {
         }
 
         System.out.println();
-        int temp, controle = 4;
+        int temp;
         for(int i = 4;i>=0;i--){
             temp = vet[i];
             if(i == 0){
@@ -23,7 +23,7 @@ public class Questao29 {
                 vet[i-1] = temp;
                 vet[i] = 0;
             }
-            controle--;
+
             System.out.print("Andando 1 posição ");
             for(int l = 0;l<5;l++){
                 System.out.print(vet[l]+" ");
