@@ -3,6 +3,12 @@
     Permita que o programa abra o arquivo texto CSV e exiba o conteúdo na tela.
  */
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -12,6 +18,11 @@ public class Questao35 {
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String args[]){
+        
+        // Criando arquivo de texto
+        File arquivo = new File("temp/arquivo1_texto.csv");
+
+        //pedindo frase o usuário
         System.out.print("Escreva uma frase: ");
         String frase = scanner.nextLine();
 
@@ -25,20 +36,60 @@ public class Questao35 {
          for (String comparacao : PalavrasSeparadas) {
             if (cont.containsKey(comparacao)) {
                 //se a palavra se repetir ele soma cada vez que a palavra se repetir
+                int quantidadaPalavra = cont.get(comparacao);
                 cont.put(comparacao, cont.get(comparacao) + 1);
             } else {
-
                 //se não repetir, ele atribui o valor 1 aquela palavra, pois ela so apareceu uma vez.
                 cont.put(comparacao, 1);
             }
         }
-
         //exibir
-        System.out.println("Resultado: ");
-        for (String comparacao : cont.keySet()) {
-            int quantidade = cont.get(comparacao);
-            System.out.println(comparacao + " = " + quantidade);
+        try {
+            FileWriter escrever = new FileWriter(arquivo);
+            for (String comparacao : cont.keySet()) {
+                escrever.append(comparacao+" : "+cont.get(comparacao)+ "\n");
+            }
+            escrever.close();
+
+            // Abre o arquivo e exibe o conteúdo na tela
+            Scanner leitor = new Scanner(arquivo);
+            while (leitor.hasNextLine()) {
+                System.out.println(leitor.nextLine());
+            }
+            leitor.close();
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
         }
-        
+
+
+        //Tentar solução usando FileReader
+
+        // try {
+        //     FileReader ler =  new FileReader("arquivo1_texto.csv");
+        //     StringBuffer sbResult = new StringBuffer();
+		//     String linha = "";
+            
+        //     while (linha != null) 
+		// {
+		// 	sbResult.append(linha + "\n");
+		// 	linha = ler.read(null);
+			
+		// 	if(linha != null) {
+		// 		String[] parts = linha.split(";");
+		// 		for (int i = 0; i < parts.length; i++) {
+		// 			System.out.print("["+parts[i]+"] ");
+		// 		}
+		// 	}
+
+		// }
+        //     ler.close();
+        // } catch (FileNotFoundException e) {
+        //     // TODO Auto-generated catch block
+        //     e.printStackTrace();
+        // }
+
     }
+
+
 }
