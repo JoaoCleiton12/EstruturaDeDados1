@@ -3,10 +3,8 @@
     Permita que o programa abra o arquivo texto CSV e exiba o conteúdo na tela.
  */
 
-import java.io.BufferedWriter;
+
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.HashMap;
@@ -36,7 +34,6 @@ public class Questao35 {
          for (String comparacao : PalavrasSeparadas) {
             if (cont.containsKey(comparacao)) {
                 //se a palavra se repetir ele soma cada vez que a palavra se repetir
-                int quantidadaPalavra = cont.get(comparacao);
                 cont.put(comparacao, cont.get(comparacao) + 1);
             } else {
                 //se não repetir, ele atribui o valor 1 aquela palavra, pois ela so apareceu uma vez.

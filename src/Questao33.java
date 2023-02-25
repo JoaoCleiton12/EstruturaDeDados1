@@ -18,7 +18,6 @@ public class Questao33 {
         Map<Character, Integer> contLetras = new HashMap<>();
         
         int tam = frase.length();
-        int cont = 0;
         for(int i = 0; i < tam; i++){
            char comparar = frase.charAt(i);
            //containsKey verifica se o caracter com parâmetro i esta no map

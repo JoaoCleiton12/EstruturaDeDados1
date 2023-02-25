@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 /*
     Calcule o somatório dos números inteiros do intervalo entre dois números. No mesmo programa,
     implemente esse cálculo em duas funções:
