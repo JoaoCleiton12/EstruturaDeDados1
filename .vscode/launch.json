@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Questao41",
+            "request": "launch",
+            "mainClass": "Questao41",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao32",
+            "request": "launch",
+            "mainClass": "Questao32",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"

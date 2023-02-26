@@ -40,7 +40,7 @@ public class Questao35 {
                 cont.put(comparacao, 1);
             }
         }
-        //exibir
+        //escrita
         try {
             FileWriter escrever = new FileWriter(arquivo);
             for (String comparacao : cont.keySet()) {
@@ -55,7 +55,6 @@ public class Questao35 {
             }
             leitor.close();
         } catch (IOException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
 
@@ -82,7 +81,6 @@ public class Questao35 {
 		// }
         //     ler.close();
         // } catch (FileNotFoundException e) {
-        //     // TODO Auto-generated catch block
         //     e.printStackTrace();
         // }
 

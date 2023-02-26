@@ -23,12 +23,14 @@ import java.util.Scanner;
             System.out.print("Cadastrando pessoa "+ (i+1));
             System.out.print("\nCPF: ");
             long cpf = scanner.nextLong();
-            scanner.nextLine(); // Consumir a quebra de linha
+            // pegar quebra de linha
+            scanner.nextLine(); 
             System.out.print("Nome: ");
             String nome = scanner.nextLine();
             System.out.print("Idade: " );
             int idade = scanner.nextInt();
-            scanner.nextLine(); // Consumir a quebra de linha
+            // pegar quebra de linha
+            scanner.nextLine(); 
             System.out.print("Sexo: " );
             String sexo = scanner.nextLine();
             System.out.print("Peso: " );
