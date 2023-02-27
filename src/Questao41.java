@@ -192,6 +192,30 @@ public class Questao41 {
 //--------------------------------------------------------------------------
 
         //LinkedList
+        System.out.println("LinkedList");
+        Queue<String> numQueueLinkedList = new LinkedList<String>();
+		
+        numQueueLinkedList.add("dois"); 
+        numQueueLinkedList.add("tres"); 		
+        numQueueLinkedList.add("um"); 
+        //permite repeticao				
+        numQueueLinkedList.add(null); 		
+	System.out.println(numQueueLinkedList);
+        //consulta o inicio
+	System.out.println("inicio: " + numQueueLinkedList.peek()); 		
+	//remove do inicio
+	System.out.println("removed: " + numQueueLinkedList.remove());
+	System.out.println(numQueueLinkedList);
+	System.out.println();
+        //--------------------------------------------------------------------------
+
+//###########################################################################
+//############################# Deque LinkedList ############################
+//###########################################################################
+/*
+  
+  
+*/
     }
 
     //d)Deque: LinkedList
