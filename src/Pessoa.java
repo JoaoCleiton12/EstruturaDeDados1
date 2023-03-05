@@ -1,6 +1,6 @@
 import java.io.Serializable;
 
-public class pessoa implements Serializable{
+public class Pessoa implements Serializable{
         private long cpf;
         private String nome;
         private int idade;
@@ -9,7 +9,7 @@ public class pessoa implements Serializable{
         private double altura;
         private double imc;
 
-        public pessoa(long cpf, String nome, int idade, String sexo, double peso, double altura) {
+        public Pessoa(long cpf, String nome, int idade, String sexo, double peso, double altura) {
             this.cpf = cpf;
             this.nome = nome;
             this.idade = idade;

@@ -17,7 +17,7 @@ public class Questao32 {
     public static void main(String[] args) {
 
         //criando lista de pessoas
-        ArrayList<pessoa> individuos = new ArrayList<pessoa>();
+        ArrayList<Pessoa> individuos = new ArrayList<Pessoa>();
 
         System.out.print("Quantas pessoas serão cadastradas? ");
         int tam = scanner.nextInt();
@@ -41,7 +41,7 @@ public class Questao32 {
             scanner.nextLine();
             System.out.print("Altura: ");
             double altura = scanner.nextDouble();
-            pessoa temp = new pessoa(cpf, nome, idade, sexo, peso, altura);
+            Pessoa temp = new Pessoa(cpf, nome, idade, sexo, peso, altura);
             individuos.add(temp);
         }
         System.out.println();
@@ -49,7 +49,7 @@ public class Questao32 {
         
         //criando arquivo binário e salvando o conteúdo de pessoa nele.
         try (ObjectOutputStream outputStream = new ObjectOutputStream(new FileOutputStream("individuos.dat"))) {
-            for (pessoa pessoa : individuos) {
+            for (Pessoa pessoa : individuos) {
                 outputStream.writeObject(pessoa);
             }
         } catch (IOException e) {
@@ -60,7 +60,7 @@ public class Questao32 {
         System.out.println("Pessoas cadastradas:");
         try (ObjectInputStream inputStream = new ObjectInputStream(new FileInputStream("individuos.dat"))) {
                 while (true) {
-                    pessoa pessoa = (pessoa) inputStream.readObject();
+                    Pessoa pessoa = (Pessoa) inputStream.readObject();
                     System.out.println(pessoa);
                 }
             } catch (EOFException e) {

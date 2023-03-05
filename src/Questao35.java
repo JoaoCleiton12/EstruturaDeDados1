@@ -57,33 +57,6 @@ public class Questao35 {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-
-        //Tentar solução usando FileReader
-
-        // try {
-        //     FileReader ler =  new FileReader("arquivo1_texto.csv");
-        //     StringBuffer sbResult = new StringBuffer();
-		//     String linha = "";
-            
-        //     while (linha != null) 
-		// {
-		// 	sbResult.append(linha + "\n");
-		// 	linha = ler.read(null);
-			
-		// 	if(linha != null) {
-		// 		String[] parts = linha.split(";");
-		// 		for (int i = 0; i < parts.length; i++) {
-		// 			System.out.print("["+parts[i]+"] ");
-		// 		}
-		// 	}
-
-		// }
-        //     ler.close();
-        // } catch (FileNotFoundException e) {
-        //     e.printStackTrace();
-        // }
-
     }
 
 

@@ -14,7 +14,7 @@ import java.util.Scanner;
     public static void main(String[] args) {
 
         //criando lista de pessoas
-        ArrayList<pessoa> individuos = new ArrayList<pessoa>();
+        ArrayList<Pessoa> individuos = new ArrayList<Pessoa>();
 
         System.out.print("Quantas pessoas serão cadastradas? ");
         int tam = scanner.nextInt();
@@ -38,14 +38,14 @@ import java.util.Scanner;
             scanner.nextLine();
             System.out.print("Altura: ");
             double altura = scanner.nextDouble();
-            pessoa temp = new pessoa(cpf, nome, idade, sexo, peso, altura);
+            Pessoa temp = new Pessoa(cpf, nome, idade, sexo, peso, altura);
             individuos.add(temp);
         }
 
         System.out.println();
         System.out.println("Pessoas cadastradas:");
         System.out.println("CPF\t\tNome\tIdade\tSexo\tPeso (kg)\tAltura (m)\tIMC");
-        for (pessoa temp : individuos) {
+        for (Pessoa temp : individuos) {
             System.out.println(temp.getCpf() + "\t" + temp.getNome() + "\t" + temp.getIdade() + "\t" + temp.getSexo() +
                                "\t" + temp.getPeso() + "\t\t" + temp.getAltura() + "\t\t" + temp.calcularIMC());
         }

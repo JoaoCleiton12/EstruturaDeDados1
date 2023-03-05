@@ -1,13 +1,16 @@
 import java.util.ArrayList;
-import java.util.Collections;
+import java.util.Deque;
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.Set;
-import java.util.Stack;
+import java.util.TreeMap;
 import java.util.TreeSet;
 import java.util.Vector;;
 
@@ -167,8 +170,9 @@ public class Questao41 {
 //############### Diferenças entre PriorityQueue, LinkedList ################
 //###########################################################################
 /*
-  
-  
+  A diferença se da em relação a inserção e acesso aos elementos, pois o queueLinkedList é uma fila
+  que mantém a ordem de inserção dos elementos. Já o PriorityQueue é uma fila de prioridade em que a ordenação
+  é de acordo com a prioridade dos elementos.
 */
 
         //PriorityQueue
@@ -178,16 +182,17 @@ public class Questao41 {
         NumPriorityQueue.add("um"); 		
         NumPriorityQueue.add("dois"); 		
         NumPriorityQueue.add("tres");
+        NumPriorityQueue.add(null);
         // permite repeticao 		
         NumPriorityQueue.add("dois"); 		 
         
-		System.out.println(NumPriorityQueue); 
-		System.out.println("Inicio: " + NumPriorityQueue.peek()); 		
-		//um
-		System.out.println("remove: " + NumPriorityQueue.remove()); 
-		//dois
-		System.out.println("remove: " + NumPriorityQueue.remove());	
-		System.out.println(NumPriorityQueue); 
+	System.out.println(NumPriorityQueue); 
+	System.out.println("Inicio: " + NumPriorityQueue.peek()); 		
+	//um
+	System.out.println("remove: " + NumPriorityQueue.remove()); 
+	//dois
+	System.out.println("remove: " + NumPriorityQueue.remove());	
+	System.out.println(NumPriorityQueue); 
         System.out.println();
 //--------------------------------------------------------------------------
 
@@ -207,19 +212,111 @@ public class Questao41 {
 	System.out.println("removed: " + numQueueLinkedList.remove());
 	System.out.println(numQueueLinkedList);
 	System.out.println();
-        //--------------------------------------------------------------------------
+//--------------------------------------------------------------------------
 
 //###########################################################################
 //############################# Deque LinkedList ############################
 //###########################################################################
 /*
+  o Deque LinkedList é uma fila duplamente encadeada que não garante uma ordem específica 
+  e permite a inserção e remoção de elementos em ambas as extremidades da fila.
+*/ 
+
+        //Deque
+        System.out.println("Deque LinkedList");
+        Deque<String> numDeque = new LinkedList<String>();
+
+        numDeque.add("Um");
+        numDeque.add("Dois");
+        numDeque.add("Tres");
+        System.out.print(numDeque);
+        
+        System.out.println();
+
+        //Add elemento no início
+        numDeque.addFirst("Zero");
+        //Add elemento no final
+        numDeque.addLast("Quatro");
+        System.out.print(numDeque);
+        
+        System.out.println();
+
+        //consulta o início
+        //peedFirst também funciona
+        System.out.println("Inicio: " + numDeque.peek());
+   
+        //consulta fim
+        System.out.println("fim: "+numDeque.peekLast());
+
+        //remove inicio
+        //removeFirst também funciona
+        numDeque.remove();
+        //remove fim
+        numDeque.removeLast();
+        System.out.print(numDeque);
+
+        System.out.println();
+        System.out.println();
+//--------------------------------------------------------------------------
+
+//###########################################################################
+//############# Diferenças entre HashMap, LinkedHashMap, TreeMap ############
+//###########################################################################
+/*
   
   
 */
+
+        //HashMap
+        System.out.println("HashMap");
+	Map<String, Integer> numhashMap = new HashMap<String, Integer>();
+	numhashMap.put("um", 1);
+	numhashMap.put("dois", 2 );
+	numhashMap.put("tres", 3);
+        numhashMap.put(null, 0);
+        System.out.println( numhashMap );
+        // Substitui o elemento que também tinha chave "tres" 
+        numhashMap.put("tres", 4);
+	System.out.println( numhashMap );
+	numhashMap.remove( "dois" );
+	System.out.println( numhashMap.size() );
+	System.out.println( numhashMap.keySet() );
+        System.out.println();
+//--------------------------------------------------------------------------
+
+        //LinkedHashMap
+        System.out.println("LinkedHashMap");
+	Map<String, Integer> numLinkedHashMap = new LinkedHashMap<String, Integer>();
+	numLinkedHashMap.put("um", 1);
+	numLinkedHashMap.put("dois", 2);
+	numLinkedHashMap.put("tres", 3);
+        numLinkedHashMap.put(null, 0);
+        System.out.println( numLinkedHashMap );
+        // Substitui o elemento que também tinha chave "tres"  
+	numLinkedHashMap.put("tres", 4);
+	System.out.println( numLinkedHashMap );
+	System.out.println( numLinkedHashMap.remove( "dois" ) );
+	System.out.println( numLinkedHashMap.size() );
+		
+	System.out.println( numLinkedHashMap.keySet());
+        System.out.println();
+//--------------------------------------------------------------------------
+        
+        //TreeMap
+        System.out.println("TreeMap");
+	Map<String, Integer> numTreeMap = new TreeMap<String, Integer>();
+	numTreeMap.put("um", 1);
+	numTreeMap.put("dois", 2);
+	numTreeMap.put("tres", 3);
+        System.out.println( numTreeMap );
+        numTreeMap.put("tres", 4);
+        //não permite null
+	// numTreeMap.put(null, 0 );	
+	System.out.println( numTreeMap );
+	System.out.println( numTreeMap.remove( "dois" ) );
+	System.out.println( numTreeMap.size() );
+		
+	System.out.println( numTreeMap.keySet() );
     }
-
-    //d)Deque: LinkedList
-    //e)Map: HashMap, LinkedHashMap, TreeMap
-
 }
 

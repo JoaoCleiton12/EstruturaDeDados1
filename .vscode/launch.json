@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Questao41",
+            "request": "launch",
+            "mainClass": "Questao41",
+            "projectName": "EstruturaDeDados1_cc45c40c"
+        },
+        {
+            "type": "java",
             "name": "Launch Questao41",
             "request": "launch",
             "mainClass": "Questao41",
