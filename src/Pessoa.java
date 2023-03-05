@@ -80,4 +80,5 @@ public class Pessoa implements Serializable{
                     "Altura: " + altura + "\n" +
                     "IMC: " + imc + "\n";
         }
+
      }

@@ -218,7 +218,7 @@ public class Questao41 {
 //############################# Deque LinkedList ############################
 //###########################################################################
 /*
-  o Deque LinkedList é uma fila duplamente encadeada que não garante uma ordem específica 
+  O deque LinkedList é uma fila duplamente encadeada que não garante uma ordem específica 
   e permite a inserção e remoção de elementos em ambas as extremidades da fila.
 */ 
 
@@ -263,7 +263,9 @@ public class Questao41 {
 //############# Diferenças entre HashMap, LinkedHashMap, TreeMap ############
 //###########################################################################
 /*
-  
+  A difereça se da pelos seguintes aspectos, o HashMap oferece a melhor performance, mas não garante 
+  nenhuma ordenação para os elementos. O LinkedHashMap mantém a ordem de inserção. é o TreeMap por sua vez, 
+  ordena automaticamente os elementos com base em sua chave.
   
 */
 
