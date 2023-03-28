@@ -1,0 +1,308 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Questao39",
+            "request": "launch",
+            "mainClass": "Questao39",
+            "projectName": "EstruturaDeDados1_cc45c40c"
+        },
+        {
+            "type": "java",
+            "name": "Questao40",
+            "request": "launch",
+            "mainClass": "Questao40",
+            "projectName": "EstruturaDeDados1_cc45c40c"
+        },
+        {
+            "type": "java",
+            "name": "Questao41",
+            "request": "launch",
+            "mainClass": "Questao41",
+            "projectName": "EstruturaDeDados1_cc45c40c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao41",
+            "request": "launch",
+            "mainClass": "Questao41",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao32",
+            "request": "launch",
+            "mainClass": "Questao32",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao01",
+            "request": "launch",
+            "mainClass": "Questao01",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao02",
+            "request": "launch",
+            "mainClass": "Questao02",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao03",
+            "request": "launch",
+            "mainClass": "Questao03",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao04",
+            "request": "launch",
+            "mainClass": "Questao04",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao05",
+            "request": "launch",
+            "mainClass": "Questao05",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao06",
+            "request": "launch",
+            "mainClass": "Questao06",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao07",
+            "request": "launch",
+            "mainClass": "Questao07",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao08",
+            "request": "launch",
+            "mainClass": "Questao08",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao09",
+            "request": "launch",
+            "mainClass": "Questao09",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao10",
+            "request": "launch",
+            "mainClass": "Questao10",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao11",
+            "request": "launch",
+            "mainClass": "Questao11",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao12",
+            "request": "launch",
+            "mainClass": "Questao12",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao13",
+            "request": "launch",
+            "mainClass": "Questao13",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao14",
+            "request": "launch",
+            "mainClass": "Questao14",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao15",
+            "request": "launch",
+            "mainClass": "Questao15",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao16",
+            "request": "launch",
+            "mainClass": "Questao16",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao17",
+            "request": "launch",
+            "mainClass": "Questao17",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao18",
+            "request": "launch",
+            "mainClass": "Questao18",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao19",
+            "request": "launch",
+            "mainClass": "Questao19",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao20",
+            "request": "launch",
+            "mainClass": "Questao20",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao21",
+            "request": "launch",
+            "mainClass": "Questao21",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao22",
+            "request": "launch",
+            "mainClass": "Questao22",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao23",
+            "request": "launch",
+            "mainClass": "Questao23",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao24",
+            "request": "launch",
+            "mainClass": "Questao24",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao25",
+            "request": "launch",
+            "mainClass": "Questao25",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao26",
+            "request": "launch",
+            "mainClass": "Questao26",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao27",
+            "request": "launch",
+            "mainClass": "Questao27",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao28",
+            "request": "launch",
+            "mainClass": "Questao28",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao29",
+            "request": "launch",
+            "mainClass": "Questao29",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao30",
+            "request": "launch",
+            "mainClass": "Questao30",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao31",
+            "request": "launch",
+            "mainClass": "Questao31",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao33",
+            "request": "launch",
+            "mainClass": "Questao33",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao34",
+            "request": "launch",
+            "mainClass": "Questao34",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao35",
+            "request": "launch",
+            "mainClass": "Questao35",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao36",
+            "request": "launch",
+            "mainClass": "Questao36",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao37",
+            "request": "launch",
+            "mainClass": "Questao37",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Questao38",
+            "request": "launch",
+            "mainClass": "Questao38",
+            "projectName": "EstruturaDeDados1_bcbaacf0"
+        }
+    ]
+}
